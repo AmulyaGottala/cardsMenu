@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+   flex-flow: row wrap;
+}
+
+.item{
+    border: 0.2px solid rgb(212, 206, 206);
+    padding: 16px;
+    border-radius: 16px;
+    width:28%;
+    margin: 10px;
+}
+
+img{
+    width:100%;
+    border-radius: 16px;
+    position: relative;
+    height: 250px;
+}
+
+section{
+    position: relative;
+}
+
+.rating{
+    border:black;
+    border-radius: 16px;
+    background: rgb(213, 224, 224);
+    width: 180px;;
+    text-align: center;
+    padding: 6px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+button{
+    padding: 16px;
+    border-radius: 25px;
+    background-color: rgb(69, 196, 43);
+    border: none;
+    color: white;
+    width: 200px;
+    font-size: medium;
+}
+
+.contact{
+    position: fixed;
+    right: -70px;
+    transform: rotate(90deg);
+    bottom:380px;
+}
